@@ -1,4 +1,25 @@
-site_name: My Docs
+site_name: 97Continuum
+site_description: Documenting my journey in the world of programming and math
 site_url: https://sitename.example
 theme:
   name: material
+  palette:
+  # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark Mode
+      primary: deep purple
+      accent: deep purple
+  # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light Mode
+      primary: deep purple
+      accent: deep purple
+
+plugins:
+  - search
+  - blog:
+      blog_dir: .
