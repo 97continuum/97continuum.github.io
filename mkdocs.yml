@@ -23,3 +23,10 @@ plugins:
   - search
   - blog:
       blog_dir: .
+
+      archive_date_format: MM/yyyy
+      archive_url_date_format: MM/yyyy
+
+      categories_allowed:
+        - Low Latency
+        - Portfolio Optimization
