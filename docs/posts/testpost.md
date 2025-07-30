@@ -1,7 +1,6 @@
 ---
 date:
     created: 2025-07-25
-    udated: 2025-07-28
 readtime: 
 categories:
     - Portfolio Optimization
