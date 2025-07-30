@@ -6,6 +6,11 @@ readtime:
 categories:
     - Portfolio Optimization
     - Low Latency
+tags:
+    - Math
+authors:
+    - 97Continuum
+slug: my-first-post
 --- 
 
 # First Post
