@@ -1,0 +1,50 @@
+site_name: 97Continuum
+site_description: Documenting my journey in the world of programming and math
+site_url: https://sitename.example
+theme:
+  name: material
+  palette:
+  # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark Mode
+      primary: deep purple
+      accent: deep purple
+  # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light Mode
+      primary: deep purple
+      accent: deep purple
+
+plugins:
+  - search
+  - blog:
+      blog_dir: .
+
+      archive_date_format: MM/yyyy
+      archive_url_date_format: MM/yyyy
+
+      categories_allowed:
+        - Low Latency
+        - Portfolio Optimization
+      post_url_format: "{slug}"
+
+  - tags:
+      tags_file: tags.md 
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/97continuum
+    - icon: fontawesome/brands/github
+      link: https://github.com/97continuum
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

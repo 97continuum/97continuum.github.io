@@ -1,0 +1,1 @@
+# Documenting my journey in the world of programming and mathematics
