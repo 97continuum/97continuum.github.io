@@ -29,7 +29,7 @@ jobs:
       - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ env.cache_id }}
-          paths: .cache
+          path: .cache
           restore-keys: | 
             mkdocs-material-
 
